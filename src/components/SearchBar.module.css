@@ -1,0 +1,28 @@
+.input{
+    border: 2px solid whitesmoke;    
+    box-shadow: inset 0 0 0.3px 0.3px rgb(97, 93, 93);
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 2px;
+    color: #525c66;
+    margin-bottom: 5px;
+    resize: none;
+}
+
+
+.btnSearch{
+    background-color: #0a2b61;
+    border-radius: 5px;
+    border-color: black;
+    border: 2px solid rgba(218, 215, 223, 0);
+    margin-left: 5px;
+    padding: 0.2em 1em;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.btnSearch:hover{
+    background-color: #224F97;
+    transition: 50ms;
+}
