@@ -1,14 +1,19 @@
 .divAbout{
-    background-color: rgb(9, 9, 59);
+    background-color:rgb(4, 4, 44);
     color: white;
     box-shadow: inset 0 0 15px;    
-    width: 100%;   
+    min-width: 100vh;  
+    min-height: 60vh; 
     border-radius: 15px;    
     align-items: center;
     justify-content: center;
     padding: 15px;
-    margin-top: 50px;
-    margin-right: 100px;
+    margin: 50px;
     text-align: center;
-    
+    font-size: 30px;
+}
+
+.p{
+    font-style: italic;
+    font-size: 20px;
 }

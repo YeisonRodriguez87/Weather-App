@@ -3,8 +3,6 @@ import Card from './Card.jsx';
 import styles from './Cards.module.css';
 
 export default function Cards(props) {
-  // acá va tu código
-  // tip, podés usar un map
   if(!props.cities){
     return <h1>No cities available</h1>
   }

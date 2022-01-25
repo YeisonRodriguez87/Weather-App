@@ -12,10 +12,10 @@ export default function Nav({onSearch}) {
       </div> 
       
         <div>
-          <Link to='/' style= {{textDecoration: 'none', color: 'white', fontSize: '18px'}}><strong>Home</strong></Link> 
+          <Link to='/' style= {{textDecoration: 'none', color: 'white', fontSize: '20px'}}><strong>Home</strong></Link> 
         </div>
         <div>
-          <Link to='/about' style= {{textDecoration: 'none', color: 'white', fontSize: '18px'}}><strong>About</strong></Link> 
+          <Link to='/about' style= {{textDecoration: 'none', color: 'white', fontSize: '20px'}}><strong>About</strong></Link> 
         </div>
         <div>	      
           <SearchBar onSearch = {onSearch}/>

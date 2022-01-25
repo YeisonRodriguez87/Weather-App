@@ -7,12 +7,12 @@ export default function Ciudad({city}) {
             <div className = {styles.divCiudad}>
                 <h2>{city.name}</h2>
                 <div>
-                    <p>Temperature: {city.temp} ºC</p>
-                    <p>Climate: {city.weather}</p>
-                    <p>Wind: {city.wind} km/h</p>
-                    <p>Amount of Clouds: {city.clouds}</p>
-                    <p>Latitude: {city.latitude}º</p>
-                    <p>Length: {city.longitud}º</p>
+                    <p className = {styles.p}>Temperature: {city.temp} ºC</p>
+                    <p className = {styles.p}>Climate: {city.weather}</p>
+                    <p className = {styles.p}>Wind: {city.wind} km/h</p>
+                    <p className = {styles.p}>Amount of Clouds: {city.clouds}</p>
+                    <p className = {styles.p}>Latitude: {city.latitude}º</p>
+                    <p className = {styles.p}>Length: {city.longitud}º</p>
                 </div>
             </div>
         </div>

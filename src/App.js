@@ -15,8 +15,7 @@ export default function App() {
   const [cities, setCities] = useState([]);   
   const apiKey = '4ae2636d8dfbdc3044bede63951a019b';
 
-  function onSearch(city) {
-    //Acá habría que hacer el llamado a la API para obtener los datos de la ciudad  
+  function onSearch(city) { 
     if(arrayCities.includes(city)){
       return alert('City already on screen. Please enter another one.')      
     }
